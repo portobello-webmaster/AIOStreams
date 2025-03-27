@@ -6,3 +6,5 @@ out/
 next-env.d.ts
 .wrangler/
 .env
+packages/wrappers/.DS_Store
+.DS_Store
