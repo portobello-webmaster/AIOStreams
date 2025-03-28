@@ -9,7 +9,7 @@ const manifest = (config?: Config, configPresent?: boolean) => {
       addonId += `.${getTextHash(JSON.stringify(config)).substring(0, 12)}`;
   }
   return {
-    name: config?.overrideName || Settings.ADDON_NAME,
+    name: 'config?.overrideName || Settings.ADDON_NAME',
     id: addonId,
     version: version,
     description: description,
@@ -17,7 +17,7 @@ const manifest = (config?: Config, configPresent?: boolean) => {
     resources: ['stream'],
     background:
       'https://raw.githubusercontent.com/Viren070/AIOStreams/refs/heads/main/packages/frontend/public/assets/background.png',
-    logo: 'https://raw.githubusercontent.com/Viren070/AIOStreams/refs/heads/main/packages/frontend/public/assets/logo.png',
+    logo: 'https://aiostreams.portobello.workers.dev/assets/plogo.png',
     types: ['movie', 'series'],
     behaviorHints: {
       configurable: true,

@@ -13,9 +13,9 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: 'Portobello',
+  title: 'AIOStreams',
   description:
-    'Portobello default addon for Stremio.',
+    'Combine all your streams into one addon and display them with consistent formatting, sorting, and filtering.',
 };
 
 export default function RootLayout({
