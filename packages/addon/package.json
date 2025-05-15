@@ -10,7 +10,7 @@
     "start": "node dist/server.js",
     "start:dev": "cross-env NODE_ENV=dev tsx watch src/server.ts"
   },
-  "description": "Portobello customized stremio addon.",
+  "description": "Portobello customized streaming addon.",
   "dependencies": {
     "@aiostreams/formatters": "^1.0.0",
     "@aiostreams/types": "^1.0.0",
